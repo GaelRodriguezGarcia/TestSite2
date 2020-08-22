@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
     integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
-    <title>Document</title>
+    <script src="index.js" async></script>
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -36,9 +38,10 @@
     <!--Introduction-->
     <section class="intro" id="home">
         <h1 class="section__title section__title--intro">
-            Hi, I am <strong>Gael Rodriguez</strong>
+            Hi, I am <strong id="Name">Gael Rodriguez</strong>
+        </h1>
             <p class="section__subtitle section__subtitle--intro">Coding Student</p>
-            <img src="img/bob-ross.jpg" alt="me">
+            <img src="img/bob-ross.jpg" alt="me" class="intro__img">
         </h1>
     </section>
 
@@ -53,14 +56,14 @@
                 ipsum gubergren gubergren accusam aliquyam magna erat consetetur. Et et.</p>
             </div>  <!-- close services-->
 
-            <div class="service">
+            
                 <div class="service">
                     <h3>CSS</h3>
                     <p>Tempor et diam amet clita ipsum no sadipscing amet, est
                     ipsum gubergren gubergren accusam aliquyam magna erat consetetur. Et et.</p>
                 </div>  <!-- close services-->
 
-            <div class="service">
+            
                 <div class="service">
                     <h3>JavaScript</h3>
                     <p>Tempor et diam amet clita ipsum no sadipscing amet, est
@@ -74,21 +77,21 @@
 
     <!--about me-->
     <section class="about-me" id="about">
-        <h2 class="section__title section__title--about">Who I am</h2>
-        <p class="section__subtitle section__subtitle--about"></p>
+        <h2 class="section__title section__title--about">Who am I?</h2>
+        <p class="section__subtitle section__subtitle--about">Currently Coding student at West-mec</p>
 
         <div class="about-me__body">
-            <p></p>
-            <p></p>
+            <p>Erat sanctus gubergren voluptua sea est elitr dolor. Ea ipsum consetetur amet dolores justo eos diam ea nonumy, stet et.</p>
+            <p>Est est dolor magna sed eirmod ipsum, accusam dolor gubergren et accusam eos. Voluptua nonumy gubergren stet nonumy, ut kasd.</p>
         </div>
 
-        <img src="img/laptopwood.jpg" alt="">
+        <img src="img/eric-cartman.png" alt="" class="about-me__img">
     </section>
 
     <!--my work-->
     <section class="my-work" id="work">
-        <h2 class="section__title"></h2>
-        <p class="section__subtitle"></p>
+        <h2 class="section__title">My Work</h2>
+        <p class="section__subtitle">some work i have done</p>
         
         <div class="portfolio">
             <!--portfolio item 1-->
@@ -101,7 +104,7 @@
             </a>
             <!--portfolio item 3-->
             <a href="#" class="portfolio__item">
-                <img src="img/htmlcode.jpeg" alt="" class="portfolio__image">
+                <img src="img/bob-ross.jpg" alt="" class="portfolio__image">
             </a>
             <!--portfolio item 4-->
             <a href="#" class="portfolio__item">
@@ -109,7 +112,7 @@
             </a>
             <!--portfolio item 5-->
             <a href="#" class="portfolio__item">
-                <img src="img/yellowlaptop.webp" alt="" class="portfolio__image">
+                <img src="img/jscode.jpeg" alt="" class="portfolio__image">
             </a>
             <!--portfolio item 6-->
             <a href="#" class="portfolio__item">
@@ -129,20 +132,20 @@
             </a>
             <!--portfolio item 10-->
             <a href="#" class="portfolio__item">
-                <img src="img/csscode.jpg" alt="" class="portfolio__image">
+                <img src="img/bob-ross.jpg" alt="" class="portfolio__image">
             </a>
         </div>
     </section>
 
 <!--footer-->
-    <footer>
+    <footer class="footer">
         <!--email adress-->
         <a href="mailto:gaelrod@gmail.com" class="footer-link">gaelrod@gmail.com</a>
         <ul class="social-list">
-            <li class="social-list__item"><a class="social-list__link" href="www.google.com">A</a></li>
-            <li class="social-list__item"><a class="social-list__link" href="google.com">B</a></li>
-            <li class="social-list__item"><a class="social-list__link" href="google.com">C</a></li>
-            <li class="social-list__item"><a class="social-list__link" href="google.com">D</a></li>
+            <li class="social-list__item"><i class="fab fa-instagram"></i><a class="social-list__link" href="www.google.com"></a></li>
+            <li class="social-list__item"><i class="fab fa-google"></i><a class="social-list__link" href="google.com"></a></li>
+            <li class="social-list__item"><i class="fab fa-playstation"></i><a class="social-list__link" href="google.com"></a></li>
+            <li class="social-list__item"><i class="fab fa-snapchat-ghost"></i><a class="social-list__link" href="google.com"></a></li>
         </ul>
     </footer>
 </body>
